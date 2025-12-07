@@ -18,7 +18,7 @@ function App() {
   const handleRedirect = () => {
     setShowNextPage(true);
   };
-  const handleMouseEnter = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleMouseEnter = () => {
     const newTop = `${Math.random() * 90 + 5}%`;
     const newLeft = `${Math.random() * 90 + 5}%`;
 
