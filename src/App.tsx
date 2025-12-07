@@ -12,7 +12,7 @@ interface Position {
 function App() {
   const [showNextPage, setShowNextPage] = useState(false);
   const [position, setPosition] = useState<Position>({
-    top: '73%',
+    top: '73.8%',
     left: '60%',
   });
   const handleRedirect = () => {
@@ -57,7 +57,7 @@ function App() {
                 position: 'absolute',
                 ...position,
                 transition: 'all 0.5s ease-out',
-                padding: '11px 25px',
+                padding: '10px 25px',
                 fontSize: '18px',
                 backgroundColor: '#FD4F66',
                 color: 'white',
