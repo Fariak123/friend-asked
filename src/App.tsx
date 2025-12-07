@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import do_you_love_me from './assets/do-you-love-me.gif';
 import yes from './assets/yes.gif';
 import love from './assets/smile.png';
