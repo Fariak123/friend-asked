@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import do_you_love_me from './assets/do-you-love-me.gif';
 import yes from './assets/yes.gif';
 import love from './assets/smile.png';
@@ -18,7 +18,7 @@ function App() {
   const handleRedirect = () => {
     setShowNextPage(true);
   };
-  const handleMouseEnter = (e: MouseEvent<HTMLButtonElement>) => {
+  const handleMouseEnter = (e: React.MouseEvent<HTMLButtonElement>) => {
     const newTop = `${Math.random() * 90 + 5}%`;
     const newLeft = `${Math.random() * 90 + 5}%`;
 
